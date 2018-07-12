@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="iminer_cas_app_grails2.1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/iminer_cas_app_grails2_1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="iminer_cas_app_grails2.1" />
+          <element id="module-output" name="iminer_cas_app_grails2.1-grailsPlugins" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="iminer_cas_app_grails2.1/web/GrailsWeb" />
+      <element id="javaee-facet-resources" facet="iminer_cas_app_grails2.1-grailsPlugins/web/GrailsWeb" />
+    </root>
+  </artifact>
+</component>

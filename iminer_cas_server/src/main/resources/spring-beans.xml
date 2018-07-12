@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="passwordHelper" class="com.iminer.cas.core.PasswordHelper"/>
+
+    <bean id="userService" class="com.iminer.cas.service.UserService"></bean>
+    <bean id="userDao" class="com.iminer.cas.dao.UserDao"></bean>
+
+    <bean id="authorizationService" class="com.iminer.cas.service.AuthorizationService"></bean>
+    <bean id="authorizationDao" class="com.iminer.cas.dao.AuthorizationDao"></bean>
+
+    <bean id="roleDao" class="com.iminer.cas.dao.RoleDao"></bean>
+    <bean id="roleService" class="com.iminer.cas.service.RoleService"></bean>
+
+    <bean id="appDao" class="com.iminer.cas.dao.AppDao"></bean>
+    <bean id="appService" class="com.iminer.cas.service.AppService"></bean>
+
+    <bean id="resourceDao" class="com.iminer.cas.dao.ResourceDao"></bean>
+    <bean id="resourceService" class="com.iminer.cas.service.ResourceService"></bean>
+</beans>
